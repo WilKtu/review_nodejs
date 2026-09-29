@@ -106,13 +106,3 @@ para 3 personas. Al matricular estudiantes en ese horario, el cuarto debe ser re
   - **D** (inversión de dependencias): la conexión se crea en `main.js` y se pasa a las
     clases por el constructor, no la crean ellas.
 
-## Cosas que aprendí
-
-- Usar `?` en las consultas para evitar inyección SQL.
-- Que `SELECT ... FOR UPDATE` bloquea filas y evita que dos matrículas pasen el cupo.
-- Liberar siempre la conexión con `release()` dentro de un `finally`.
-- Traducir los errores de MySQL a mensajes que un usuario entienda.
-
-## Autor
-
-Will — estudiante de Campuslands (desarrollo de software y bases de datos).
